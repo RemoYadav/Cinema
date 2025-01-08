@@ -1,0 +1,170 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    height: 650px;
+    /* color: white; */
+    /* font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"; */
+    /* font-size: small; */
+}
+.form_fill{
+    /* width: 82%; */
+    padding: 30px;
+    
+    /* justify-content: center; */
+
+}
+form{
+    width: 500px;
+    height: 650px;
+    background-color: #24262b;
+    display: flex;
+    justify-content: center;
+    border-radius:10px;
+    
+    
+}
+label{
+    width: 100%;
+}
+
+button{
+    background-color: transparent;
+    /* width:auto; */
+    /* height: 30px; */
+    padding: 8px;
+    border: none;
+    display: flex;
+    margin-left: 40px;
+}
+.code{
+    /* height: 25px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+span{
+    color: white;
+    width: 100%;
+    font-size: 15px;
+}
+.mr{
+    margin-top: 5px;
+}
+
+input{
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid white;
+    opacity: 0.6;
+    background-color: transparent;
+    /* margin */
+}
+input[type=text],input[type=password]{
+    color: white;
+}
+._flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+._phone{
+    display: flex;
+}
+._phone .country_code{
+    /* width: 10%; */
+    margin-right: 8px;
+    border: 1px solid white;
+    opacity: 0.6;
+    border-radius: 8px;
+}
+._check{
+    width: 12px;
+}
+.user{
+    display: flex;
+    /* margin-right: 5px; */
+    
+}
+
+.user .nm-m{
+    margin: 0px 16px 0px 16px;
+    /* width: 40px; */
+}
+#_symbol{
+    color: #00aad3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    padding: 6px;
+    /* margin: 10px; */
+}
+.check_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px;
+}
+.check_box label a{
+    color: #00aad3;
+}
+
+input[type="date"]{
+    color: white;
+    opacity: 0.3;
+    font-size: medium; 
+}
+.close{
+    /* width:100%; */
+    padding:10px;
+    padding-right: 0px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -20px;
+    /* margin-left: 30px; */
+    /* margin-bottom: 20px; */
+    /* margin-right: -30px; */
+    /*  */
+    
+
+}
+.close img{
+    width: 15px;
+
+}
+
+.conform_btn{
+    width: 80%;
+    height:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00aad3;
+
+}
+p{
+    height: 5px;
+    color:rgb(179, 58, 58);
+    margin-top: 2px;
+    font-size: small;
+}
+.terms{
+    color: white;
+}
+.success{
+    margin-left: -10px;
+    color: rgb(129, 207, 129);
+    padding: 10px;
+}
+
+
+/* .dropdown{
+    background-color: transparent;
+} */
